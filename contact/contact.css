@@ -1,0 +1,231 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+}
+
+body {
+    overflow-x: hidden !important;
+
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+
+.logo{
+    width: 200px;
+    margin-left: 70px;
+}
+
+.lap{
+    color:blue;
+    font-size:x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.nav-item{
+    margin-left: 30PX;
+}
+
+.navbar-nav{
+    margin-left: 300px;
+}
+
+.img2{
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.book{
+    color: white;
+    background-color:rgb(74, 141, 235);
+    padding: 15px;
+    
+    
+}
+
+.book:hover{
+    background-color: blue;
+    color: black;
+}
+
+.book1{
+    color: white;
+    background-color:orangered;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* about */
+
+.about{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.us{
+    background-color: rgb(74, 141, 235);
+    width: 100%;
+    padding: 20px;
+}
+
+.welcome{
+    display: flex;
+}
+
+.img2{
+    width: 360px;
+    
+
+}
+
+.image1{
+    box-shadow:10px 10px 5px 12px lightblue;
+    margin-left: 100px;
+
+}
+
+/* address */
+
+.address{
+    margin-top: -50px;
+}
+
+.add{
+    color: blue;
+}
+
+
+/* form */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(131, 131, 227);
+  }
+  
+  .container {  
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-left: 100px;
+
+  }
+
+  
+
+  
+
+
+
+  /* nav */
+
+  .nav{
+    background-color: rgb(210, 91, 47);
+    width: 100%;
+    color: white;
+  }
+
+  .nav_item1{
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+
+  .our{
+    color: green;
+  }
+
+  .bit{
+    color: green;
+    font-size: x-large;
+  }
+
+
+
+
+   
+  @media (max-width : 600px) {
+    *{
+        margin:0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    
+    
+    .card{
+       margin-top: 20px; 
+    }
+    
+    body {
+        overflow-x: hidden !important;
+    
+    }
+
+    .nav-item{
+        margin-top: 0px;
+        margin-left: 0px
+    }
+
+    .nav-link{
+        color: white;
+        background-color:rgb(74, 141, 235);
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+          
+    }
+
+.logo{
+     margin-left: 5px;
+
+}
+
+.welcome{
+    display: block;
+}
+
+
+.address{
+    margin-top: 0px;
+}
+
+.image1{
+    margin-left: 0px;
+    width: 100%;
+}
+
+
+.container {  
+   
+    margin-left: 0px;
+
+  }
+
+
+  }

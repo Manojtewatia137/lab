@@ -1,0 +1,252 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+}
+
+body {
+    overflow-x: hidden !important;
+
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+
+.logo{
+    width: 200px;
+    margin-left: 70px;
+}
+
+
+
+.lap{
+    color:blue;
+    font-size:x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.nav-item{
+    margin-left: 30PX;
+}
+
+.navbar-nav{
+    margin-left: 300px;
+}
+
+.img2{
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.book{
+    color: white;
+    background-color:rgb(74, 141, 235);
+    padding: 15px;
+    
+    
+}
+
+.book:hover{
+    background-color: blue;
+    color: black;
+}
+
+.book1{
+    color: white;
+    background-color:orangered;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+/* service */
+
+.about{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.us{
+    background-color: rgb(74, 141, 235);
+    width: 100%;
+    padding: 20px;
+}
+
+.img12{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.service1{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.image122{
+    margin-left: 150px;
+}
+
+
+
+/* service1 */
+.h3{
+    color: blue;
+}
+
+
+
+
+.welcome{
+    display: flex;
+}
+
+
+.text{
+   font-family:sans-serif;
+}
+
+.image1{
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 300px;
+    height:  230px;
+    border: solid 5px whitesmoke;
+}
+
+.image2{
+    margin-top: 50px;
+    width: 300px;
+    height:  230px;
+    margin-left: 20px;
+    border: solid 5px whitesmoke;
+}
+
+.image11{
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 300px;
+    height: 230px;
+    border: solid 5px whitesmoke;
+}
+
+
+
+  /* nav */
+
+  .nav{
+    background-color: rgb(210, 91, 47);
+    width: 100%;
+    color: white;
+  }
+
+  .nav_item1{
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+
+  .our{
+    color: green;
+  }
+
+  .bit{
+    color: green;
+    font-size: x-large;
+  }
+
+
+
+  
+
+  
+  @media (max-width : 600px) {
+    *{
+        margin:0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    
+    
+    .card{
+       margin-top: 20px; 
+    }
+    
+    body {
+        overflow-x: hidden !important;
+    
+    }
+
+    .nav-item{
+        margin-top: 0px;
+        margin-left: 0px
+    }
+
+    .nav-link{
+        color: white;
+        background-color:rgb(74, 141, 235);
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+          
+    }
+
+.logo{
+     margin-left: 5px;
+
+}
+
+.welcome{
+    display: block;
+}
+
+
+
+.service1{
+    margin-left: 25px;
+}
+.text{
+    margin-left: 0px;
+}
+
+.image1{
+    margin-top: 0px;
+    margin-left: 0px;
+    width:100%;
+    border: solid 10px whitesmoke;
+}
+
+.image2{
+    margin-top: 0px;
+    width: 100%;
+    margin-left: 0px;
+    border: solid 10px whitesmoke;
+}
+
+.image11{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+    border: solid 10px whitesmoke;
+}
+
+.img12{
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
+.image122{
+    margin-left: 0px;
+}
+
+
+
+  }
+
+
