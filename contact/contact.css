@@ -65,6 +65,10 @@ html {
 
 /* about */
 
+.collapse{
+    margin-left: 200px;
+}
+
 .about{
     text-align: center;
     color: white;
@@ -141,21 +145,56 @@ input[type=text], select, textarea {
   
 
   
+ /* footer */
+
+ .footer {
+    background-color: whitesmoke;
+
+}
+
+.logo123{
+   
+    display: inline-block;
+   
+
+}
+
+.link{
+    margin-left: 100px;
+   
+}
+
+.logo1{
+    width: 200px;
+    margin-left: 60px;
+   margin-top: 10px;
+     
+}
+
+.p12{
+    margin-left: 100px;
+   
+}
+.nav_item1{
+    display: inline-block;
+    margin-left: 650px;
+    margin-top: -320px;
+    
+}
+
+.item12{
+    border-bottom: 2px solid rgb(131, 131, 227);
+}
+
+.Copyright {
+    text-align: center;
+    /* margin-top: 50px; */
+    border-top: solid wheat;
+    
+}
 
 
 
-  /* nav */
-
-  .nav{
-    background-color: rgb(210, 91, 47);
-    width: 100%;
-    color: white;
-  }
-
-  .nav_item1{
-    margin-left: 200px;
-    margin-top: 20px;
-  }
 
   .our{
     color: green;
@@ -165,7 +204,6 @@ input[type=text], select, textarea {
     color: green;
     font-size: x-large;
   }
-
 
 
 
@@ -226,6 +264,42 @@ input[type=text], select, textarea {
     margin-left: 0px;
 
   }
+
+  .collapse{
+    margin-left: 0px;
+}
+
+
+/* footer */
+
+.nav_item1{
+    display: block;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    
+}
+
+.logo123{
+   
+    display: block;
+    margin-left: 20px;
+    
+    
+}
+
+
+.p12{
+    margin-left: 0px;
+   
+}
+
+.link{
+    margin-left: 0px;
+   
+}
+
+
 
 
   }
